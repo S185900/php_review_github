@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- http://localhost/php01/config/lunch.html -->
+    <form action="lunch_order.php" method="POST">
+        <label for="menu">メニュー:</label>
+        <select name="menu_id" id="menu" required>
+            <option value="1">ハンバーガー - ¥500</option>
+            <option value="2">ピザ - ¥1000</option>
+            <option value="3">パスタ - ¥800</option>
+        </select>
+        <br>
+        <label for="quantity">注文数:</label>
+        <input type="number" name="quantity" id="quantity" min="1" required>
+        <br>
+        <input type="submit" value="注文する">
+    </form>
+
+</body>
+</html>

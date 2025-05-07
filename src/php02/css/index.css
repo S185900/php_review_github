@@ -1,0 +1,49 @@
+main {
+    height: 60vh;
+    background-color: aquamarine
+}
+
+.title_wrap {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+.title_text {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.select-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.select-form_items {
+
+}
+
+.select_city {
+    padding: 0 10px;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #a5a5a5;
+}
+
+.select-form_button {
+
+}
+
+.select-form_button_submit {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    color: #fff;
+    background: #000;
+    cursor: pointer;
+}

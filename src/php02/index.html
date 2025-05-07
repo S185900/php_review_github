@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    <!-- http://localhost/php02/index.html -->
+    <header class="header">
+        <div class="header_inner">
+            <a class="header_logo" href="index.html">
+                World Clock
+            </a>
+        </div>
+    </header>
+    <main>
+        <div class="title_wrap">
+            <div class="title_text">
+                日本と世界の時間を比較
+            </div>
+        </div>
+
+        <form class="select-form" action="result.php" method="GET">
+
+            <div class="select-form_items">
+                <select name="select_city" id="select_city" class="select_city">
+                    <option value="シドニー">シドニー</option>
+                    <option value="上海">上海</option>
+                    <option value="モスクワ">モスクワ</option>
+                    <option value="ロンドン">ロンドン</option>
+                    <option value="ヨハネスブルグ">ヨハネスブルグ</option>
+                    <option value="ニューヨーク">ニューヨーク</option>
+                </select>
+            </div>
+
+            <div class="select-form_button">
+                <input type="submit" value="比較する" class="select-form_button_submit">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

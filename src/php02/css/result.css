@@ -1,0 +1,30 @@
+main {
+    background-color: azure;
+}
+
+.result-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 1230px;
+}
+
+img {
+    width: 100%;
+    /* 親要素に合わせる */
+    max-width: 300px;
+    /* 最大幅を設定 */
+    height: auto;
+    /* アスペクト比を保持 */
+}
+.time-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    max-width: 1230px;
+}

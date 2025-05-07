@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- http://localhost/php01/config/index.html -->
+
+    <form action="result.php" method="POST">
+        <label for="user_name">
+            お名前：
+            <input type="text" name="user_name" id="user_name" required>
+        </label>
+        <br />
+        <label for="product">
+            ご希望商品：
+            <input type="radio" name="product" id="product_a" value="Aセット" required>Aセット
+            <input type="radio" name="product" id="product_b" value="Bセット" required>Bセット
+            <input type="radio" name="product" id="product_c" value="Cセット" required>Cセット
+        </label>
+        <br />
+        <label for="order_number">
+            ご注文数：
+            <input type="number" name="order_number" id="order_number" min="1" max="10" required>
+        </label>
+        <br />
+        <input type="submit" name="submit" value="注文する" id="submit" required>
+    </form>
+    
+</body>
+</html>

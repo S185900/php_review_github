@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- http://localhost/php01/config/course.html -->
+    <!-- http://localhost/php01/config/course.html -->
+
+    <form action="course.php" method="POST">
+        <label for="company">
+            会社名
+            <input type="text" name="company" id="company" required>
+            <!-- PHPにて、$_POST["company"] を使えば「会社名」が取得できる！ -->
+        </label>
+        <br />
+        <input type="submit" name="submit" value="送信する" id="submit" required>
+    </form>
+
+    
+</body>
+</html>
